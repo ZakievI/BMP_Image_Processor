@@ -38,9 +38,10 @@ public:
     uint8_t B;
     uint8_t G;
     uint8_t R;
+    uint8_t alfa;
     bool check;
 
-    Pixel() : B(0), G(0), R(0), check(false) {}
+    Pixel() : B(0), G(0), R(0), alfa(255), check(false) {}
 
     void setPixel(uint8_t r, uint8_t g, uint8_t b){
         R = r;
